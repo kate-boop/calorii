@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity2">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="TextView" />
@@ -17,27 +17,27 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:orientation="horizontal"
-        tools:context=".MainActivity3">
+        >
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_1"
             android:layout_width="185dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:background="#F4DAC9"
-            android:onClick="onClick2"
+            android:onClick="onClick_1"
             android:text="мучное"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button_2"
             android:layout_width="185dp"
             android:layout_height="match_parent"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:background="#43DDCDF6"
-            android:onClick="onClick"
+            android:onClick="onClick_2"
             android:text="фрукты"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
@@ -46,29 +46,29 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:orientation="horizontal"
-        tools:context=".MainActivity3">
+        >
 
 
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button_3"
             android:layout_width="185dp"
             android:layout_height="160dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:background="#1980B3FF"
-            android:onClick="onClick"
+            android:onClick="onClick_3"
             android:text="молочное"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_4"
             android:layout_width="185dp"
             android:layout_height="160dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
             android:background="#46FF9E80"
-            android:onClick="onClick"
+            android:onClick="onClick_4"
             android:text="мясо"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
@@ -78,26 +78,28 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:orientation="horizontal"
-        tools:context=".MainActivity3">
+        >
 
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_5"
             android:layout_width="185dp"
             android:layout_height="160dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
+            android:onClick="onClick_5"
             android:background="#52B9F6CA"
             android:text="овощи"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/button_6"
             android:layout_width="185dp"
             android:layout_height="160dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
+            android:onClick="onClick_6"
             android:background="#DCE2F3"
             android:text="рыба"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"

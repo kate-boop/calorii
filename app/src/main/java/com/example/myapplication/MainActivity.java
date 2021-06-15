@@ -67,12 +67,10 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             calorii=event.values[0];
         }
     }
-    public void onclick1(View v){
+    public void onClick_goNext(View v){
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
         intent.putExtra("calorii", Float.toString(calorii));
         startActivity(intent);
-
-
     }
 
     @Override

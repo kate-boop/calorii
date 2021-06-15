@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FRUKT extends AppCompatActivity {
+public class с4_MYASO extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_frukt);
+        setContentView(R.layout.activity_4_myaso);
     }
 }

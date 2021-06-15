@@ -24,10 +24,10 @@
         android:textSize="30sp"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_goNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onclick1"
+        android:onClick="onClick_goNext"
         android:text="Не пора ли покушать" />
 
 </LinearLayout>
